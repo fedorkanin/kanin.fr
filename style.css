@@ -1,4 +1,8 @@
 /* global */
+:root {
+    --primary-color: #9b9b9b;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -9,8 +13,7 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     background-color: #101214;
-    color: #878787;
-
+    color: var(--primary-color);
 }
 
 .block {
@@ -24,7 +27,7 @@ h2,
 
 
 a {
-    color: #878787;
+    color: var(--primary-color);
     width: fit-content;
     text-decoration: none;
     display: inline-block;
