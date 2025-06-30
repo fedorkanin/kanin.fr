@@ -39,12 +39,10 @@ p {
 a {
     width: fit-content;
     text-decoration: none;
-    display: inline-block;
     color: var(--primary-color);
 }
 
 a * {
-    display: inline-block;
     vertical-align: middle;
 }
 
